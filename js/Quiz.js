@@ -15,6 +15,7 @@ class Quiz {
     });
   }
 
+
   async start(){
     if(gameState === 0){
       contestant = new Contestant();
@@ -29,8 +30,8 @@ class Quiz {
   }
 
   play(){
-    
-    question.hide(); 
+
+     question.hide(); 
 
     background("Yellow");
     fill(0);
